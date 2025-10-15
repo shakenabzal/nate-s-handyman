@@ -125,7 +125,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-10 mt-20">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 px-6">
           <div className="flex items-center gap-4">
-            <Image src="/logo.png" alt="Nate's Logo" width={50} height={50} />
+            <Image src="images/logo.png" alt="Nate's Logo" width={50} height={50} />
             <p className="font-semibold">Nate’s Handyman Services</p>
           </div>
           <p>© {new Date().getFullYear()} Nate’s Handyman Services. All rights reserved.</p>

@@ -16,6 +16,7 @@ export default function Home() {
         <a href="tel:+16302596403" className="flex items-center gap-2 text-blue-600 font-medium">
           <Phone className="w-5 h-5" /> 630 259 64 03
         </a>
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="rYmGLs9OS6k5DrIlV1GjFA" async></script>
       </header>
 
       {/* Hero Section */}

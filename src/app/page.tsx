@@ -129,14 +129,40 @@ export default function Home() {
       <section id="contact" className="py-20 bg-gray-100">
         <div className="max-w-2xl mx-auto text-center">
           <h3 className="text-3xl font-semibold mb-10">Contact Us</h3>
-          <form className="space-y-4">
-            <input type="text" placeholder="Your Name" className="w-full p-3 border rounded-lg" />
-            <input type="email" placeholder="Your Email" className="w-full p-3 border rounded-lg" />
-            <textarea placeholder="Your Message" className="w-full p-3 border rounded-lg" rows={4}></textarea>
-            <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition">
-              Send Message
-            </button>
-          </form>
+          <form
+  className="space-y-4"
+  action="https://formspree.io/f/xblzqdko"
+  method="POST"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    className="w-full p-3 border rounded-lg"
+    required
+  />
+  <input
+    type="email"
+    name="_replyto"
+    placeholder="Your Email"
+    className="w-full p-3 border rounded-lg"
+    required
+  />
+  <textarea
+    name="message"
+    placeholder="Your Message"
+    className="w-full p-3 border rounded-lg"
+    rows={4}
+    required
+  ></textarea>
+  <button
+    type="submit"
+    className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition"
+  >
+    Send Message
+  </button>
+</form>
+
         </div>
       </section>
 

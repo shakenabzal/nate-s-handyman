@@ -12,7 +12,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-4 py-3">
           {/* Logo and Brand */}
           <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Nate's Handyman Logo" width={48} height={48} />
+            <Image src="/images/logo.png" alt="Nate's Handyman Logo" width={48} height={48} />
             <span className="font-bold text-xl text-gray-800">Nate’s Handyman Services</span>
           </div>
 
@@ -25,9 +25,7 @@ export default function Home() {
             <span className="font-semibold tracking-wide hidden sm:inline">(630) 259-6403</span>
           </a>
         </div>
-        <a href="tel:+16302596403" className="flex items-center gap-2 text-blue-600 font-medium">
-          <Phone className="w-5 h-5" /> 630 259 64 03
-        </a>
+        
       </header>
 
       {/* Hero Section */}
@@ -134,7 +132,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-10 mt-20">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 px-6">
           <div className="flex items-center gap-4">
-            <Image src="/logo.png" alt="Nate's Logo" width={50} height={50} />
+            <Image src="/images/logo.png" alt="Nate's Logo" width={50} height={50} />
             <p className="font-semibold">Nate’s Handyman Services</p>
           </div>
           <p>© {new Date().getFullYear()} Nate’s Handyman Services. All rights reserved.</p>
